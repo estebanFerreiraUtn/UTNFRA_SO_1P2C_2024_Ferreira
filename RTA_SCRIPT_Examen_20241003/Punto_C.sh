@@ -32,11 +32,11 @@ sudo chmod -R 775 /Examenes-UTN/profesores
 ls -l /Examenes-UTN
 
 sudo -u p1c2_2024_A1 bash -c "whoami > /Examenes-UTN/alumno_1/validar1.txt"
-cat /Examenes-UTN/alumno_1/validar1.txt
+sudo -u p1c2_2024_A1 cat /Examenes-UTN/alumno_1/validar1.txt
 sudo -u p1c2_2024_A2 bash -c "whoami > /Examenes-UTN/alumno_2/validar1.txt"
-cat /Examenes-UTN/alumno_2/validar1.txt
+sudo -u p1c2_2024_A2 cat /Examenes-UTN/alumno_2/validar1.txt
 sudo -u p1c2_2024_A3 bash -c "whoami > /Examenes-UTN/alumno_3/validar1.txt"
-cat /Examenes-UTN/alumno_3/validar1.txt
+sudo -u p1c2_2024_A3 cat /Examenes-UTN/alumno_3/validar1.txt
 sudo -u p1c2_2024_P1 bash -c "whoami > /Examenes-UTN/profesores/validar1.txt"
-cat /Examenes-UTN/profesores/validar1.txt
+sudo -u p1c2_2024_P1 cat /Examenes-UTN/profesores/validar1.txt
 
